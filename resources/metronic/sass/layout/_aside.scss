@@ -6,7 +6,7 @@
 	width: get($aside-config, base, width);
 
 	// Aside Menu
-	.aside-menu {
+	. {
 		@include perfect-scrollbar-ver-offset(4px);
 	}
 }
@@ -63,7 +63,7 @@
 }
 
 // Build Aside Menu
-@include menu-ver-build-layout($aside-menu-config);
+@include menu-ver-build-layout($-config);
 
 // Aside Offcanvas Panel For Mobile Mode
 @include offcanvas-build(aside, tablet-and-mobile, get($aside-config, offcanvas-mobile));

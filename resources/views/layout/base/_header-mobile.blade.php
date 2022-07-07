@@ -1,4 +1,4 @@
-{{-- Header Mobile --}}
+logo-default-inverse.png{{-- Header Mobile --}}
 <div id="kt_header_mobile" class="header-mobile {{ Metronic::printClasses('header-mobile', false) }}" {{ Metronic::printAttrs('header-mobile') }}>
     <div class="mobile-logo">
         <a href="{{ url('/') }}">
@@ -10,17 +10,17 @@
             @if (config('layout.aside.self.display') == false)
 
                 @if (config('layout.header.self.theme') === 'light')
-                    @php $kt_logo_image = 'logo-dark.png' @endphp
+                    @php $kt_logo_image = 'logo-default-inverse.png' @endphp
                 @elseif (config('layout.header.self.theme') === 'dark')
-                    @php $kt_logo_image = 'logo-light.png' @endphp
+                    @php $kt_logo_image = 'logo-default-inverse.png' @endphp
                 @endif
 
             @else
 
                 @if (config('layout.brand.self.theme') === 'light')
-                    @php $kt_logo_image = 'logo-dark.png' @endphp
+                    @php $kt_logo_image = 'logo-default-inverse.png' @endphp
                 @elseif (config('layout.brand.self.theme') === 'dark')
-                    @php $kt_logo_image = 'logo-light.png' @endphp
+                    @php $kt_logo_image = 'logo-default-inverse.png' @endphp
                 @endif
 
             @endif

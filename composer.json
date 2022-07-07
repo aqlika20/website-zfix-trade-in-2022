@@ -9,14 +9,19 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "barryvdh/laravel-dompdf": "^0.9.0",
+        "berkayk/onesignal-laravel": "^1.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.0",
+        "hashids/hashids": "^4.1",
+        "ladumor/one-signal": "^3.0",
         "laravel/framework": "^7.0",
-        "laravel/passport": "^9.3",
+        "laravel/passport": "~9.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.1",
-        "maatwebsite/excel": "^3.1"
+        "maatwebsite/excel": "^3.1",
+        "tuta/terbilang": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

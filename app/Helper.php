@@ -8,106 +8,48 @@ use App\Site;
 use App\Location;
 use App\Worker;
 use App\Privilege;
+use Carbon\Carbon;
+use App\BackWeb\Partner\Voucher;
 
 class Helper{
 
-    public static function defineRoleBy($type, $value){
-        switch($type){
-            case 'id':
-                $role = Role::where('id', $value)->first();
-                break;
+    // status process laptop
+
+    public static $baru = 1;
+    public static $process = 2;
+    public static $tolak = 3;
+    public static $selesai = 3;
+    public static $rejected = -3;
+    public static $approve = 4;
+
+    // -----------------------------------
+    
+    public static function getVoucherKey($raw_partner_key) {
+        $raw = date("l jS \of F Y h:i:s A").rand().Carbon::now();
+        $raw = strtoupper(substr(md5($raw), 0, 6));
+        $voucher_exist = Voucher::where([
+            ['voucher_key', '=', $raw_partner_key.'-'.$raw]
+        ])->first();
+        if ($voucher_exist) {
+            return getVoucherKey($raw_partner_key);
         }
-
-        return $role;
-    }
-
-    public static function definePrivilegeBy($type, $value){
-        switch($type){
-            case 'id':
-                $privilege = Privilege::where('id', $value)->first();
-                break;
+        else {
+            return $raw;
         }
-
-        return $privilege;
     }
 
-    public static function defineBankBy($type, $value){
-        switch($type){
-            case 'id':
-                $bank = Bank::where('id', $value)->first();
-                break;
-        }
-
-        return $bank;
+    public static function moneyFormat($number){
+        // return 'Rp. ' . number_format((float) preg_replace('/[.,]/', '', $number), 0, ',', '.');
+        return number_format((float) preg_replace('/[.,]/', '', $number), 0, ',', '.');
     }
 
-    public static function defineSiteBy($type, $value){
-        switch($type){
-            case 'id':
-                $site = Site::where('id', $value)->first();
-                break;
-        }
-        return $site;
+    public static function resetMoneyFormat($number){
+        // return 'Rp. ' . number_format((float) preg_replace('/[.,]/', '', $number), 0, ',', '.');
+        return str_replace("Rp", "", str_replace(".", "", $number));
     }
 
-    public static function defineLocationBy($type, $value){
-        switch($type){
-            case 'id':
-                $site = Location::where('id', $value)->first();
-                break;
-        }
-        return $site;
-    }
-
-    public static function defineGenderBy($type, $value){
-        switch($type){
-            case 'identifier':
-                $gender = Gender::where('identifier', $value)->first();
-                break;
-            case 'id':
-                $gender = Gender::where('id', $value)->first();
-                break;
-        }
-        return $gender;
-    }
-
-    public static function defineDependentBy($type, $value){
-        switch($type){
-            case 'id':
-                $dependent = Dependent::where('id', $value)->first();
-                break;
-        }
-        return $dependent;
-    }
-
-    public static function defineTradeBy($type, $value){
-        switch($type){
-            case 'id':
-                $trade = Trade::where('id', $value)->first();
-                break;
-        }
-        return $trade;
-    }
-
-    public static function defineBadgeIDBy($type, $value){
-        switch($type){
-            case 'badge_id':
-                $worker_id = Worker::where('badge_id', $value)->first();
-                break;
-        }
-        return $worker_id;
-    }
-
-    public static function convertToRupiah($number){
-        $number = 'Rp ' . number_format($number, 0, ',', '.');
-
-        return $number;
-    }
-
-    public static function convertDate($date){
-        $date = date('d-m-yy', strtotime($date));
-
-        return $date;
+    public static function capitalize($text){
+        return ucwords($text);
     }
 
 }

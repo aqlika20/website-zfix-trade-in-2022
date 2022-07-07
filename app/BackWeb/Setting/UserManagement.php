@@ -10,7 +10,7 @@ class UserManagement extends Model
     protected $table = 'users';
 
     protected $fillable = [
-        'name', 'email', 'password', 'roles_id'
+        'name', 'email', 'password', 'roles_id', 'contact', 'address'
     ];
 
     protected $hidden = [

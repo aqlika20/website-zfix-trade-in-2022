@@ -162,7 +162,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
-
+        Barryvdh\DomPDF\ServiceProvider::class,
+        Tuta\Terbilang\TerbilangServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -180,6 +181,8 @@ return [
         // Maatwebsite Excel
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
+        // OneSignal
+        Ladumor\OneSignal\OneSignalServiceProvider::class,
     ],
 
     /*
@@ -231,6 +234,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'PDF' => Barryvdh\DomPDF\Facade::class,
 
         // Metronic Aliases
         'Metronic' => App\Classes\Theme\Metronic::class,
@@ -238,6 +242,9 @@ return [
 
         // Maatwebsite Excel
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+
+        // OneSignal
+        'OneSignal' => \Ladumor\OneSignal\OneSignal::class,
 
         'Helper' => App\Helper::class,
     ],

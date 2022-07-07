@@ -1,0 +1,105 @@
+Brand,Jenis_Tv,inch,priceGradeA,priceGradeB,priceGradeC
+Samsung,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Samsung,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Samsung,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Samsung,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Samsung,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Samsung,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Samsung,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Samsung,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+LG,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+LG,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+LG,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+LG,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+LG,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+LG,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+LG,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+LG,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Sony,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Sony,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Sony,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Sony,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Sony,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Sony,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Sony,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Sony,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Panasonic,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Panasonic,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Panasonic,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Panasonic,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Panasonic,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Panasonic,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Panasonic,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Panasonic,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Sharp,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Sharp,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Sharp,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Sharp,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Sharp,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Sharp,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Sharp,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Sharp,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Toshiba,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Toshiba,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Toshiba,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Toshiba,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Toshiba,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Toshiba,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Toshiba,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Toshiba,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Philips,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Philips,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Philips,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Philips,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Philips,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Philips,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Philips,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Philips,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Polytron,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Polytron,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Polytron,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Polytron,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Polytron,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Polytron,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Polytron,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Polytron,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Xiaomi,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Xiaomi,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Xiaomi,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Xiaomi,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Xiaomi,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Xiaomi,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Xiaomi,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Xiaomi,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Changhong,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Changhong,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Changhong,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Changhong,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Changhong,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Changhong,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Changhong,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Changhong,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Coocaa,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Coocaa,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Coocaa,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Coocaa,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Coocaa,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Coocaa,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Coocaa,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Coocaa,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+TCL,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+TCL,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+TCL,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+TCL,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+TCL,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+TCL,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+TCL,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+TCL,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000
+Akari,LED,"32"" inch",Rp 600.000,Rp 500.000,Rp 400.000
+Akari,LED,"40"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Akari,LED,"42"" inch",Rp 1.200.000,Rp 1.000.000,Rp 850.000
+Akari,LED,"55"" inch",Rp 2.000.000,Rp 1.700.000,Rp 1.400.000
+Akari,Smart TV,"32"" inch",Rp 800.000,Rp 650.000,Rp 550.000
+Akari,Smart TV,"40"" inch",Rp 1.100.000,Rp 900.000,Rp 750.000
+Akari,Smart TV,"42"" inch",Rp 1.400.000,Rp 1.150.000,Rp 950.000
+Akari,Smart TV,"55"" inch",Rp 2.200.000,Rp 1.850.000,Rp 1.550.000

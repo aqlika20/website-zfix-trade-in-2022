@@ -19,10 +19,11 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('privileges_id')->nullable();
+            $table->unsignedBigInteger('roles_id');
             $table->rememberToken();
             $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP'));
+            // $table->foreign('roles_id')->references('id')->on('roles')->onCascade('delete');
         });
     }
 
